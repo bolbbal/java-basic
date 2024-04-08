@@ -2,16 +2,12 @@ package class1;
 
 public class ClassStart2 {
     public static void main(String[] args) {
-        String[] studentName = {"학생1", "학생2"};
-        int[][] studentInpo = {
-                {15, 90},
-                {16, 80}
-        };
-        for (int i = 0; i < 2; i++) {
-            for (int j = 0; j < 1; j++) {
-                System.out.println("이름:" + studentName[i] + " 나이:" + studentInpo[i][j] + " 성적:" + studentInpo[i][j+1]);
-            }
+        String[] studentNames = {"학생1", "학생2", "학생3"};
+        int[] studentAges = {15, 16, 17};
+        int[] studentScores = {90, 80, 70};
 
+        for (int i = 0; i < studentNames.length; i++) {
+            System.out.println("이름:" + studentNames[i] + " 나이:" + studentAges[i] + " 성적:" + studentScores[i]);
         }
     }
 }
