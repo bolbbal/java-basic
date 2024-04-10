@@ -3,9 +3,11 @@ package oop1.ex;
 public class RectangleOopMain {
     public static void main(String[] args) {
         Rectangle rectangle = new Rectangle();
-        rectangle.area(5,8);
-        rectangle.perimeter(5,8);
-        rectangle.isSquare(5,8);
+        rectangle.width=5;
+        rectangle.height=8;
+        rectangle.area();
+        rectangle.perimeter();
+        rectangle.isSquare();
     }
     /*
     문제1 - 절차 지향 직사각형 프로그램을 객체 지향으로 변경하기
