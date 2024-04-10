@@ -3,6 +3,7 @@ package oop1.ex;
 public class Account {
     int balance;
 
+
     int desposit(int amount) {
         return balance += amount;
     }
